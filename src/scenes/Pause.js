@@ -7,7 +7,7 @@ class Pause extends Phaser.Scene {
         let pauseButton = new Button(centerX, height - 64, '(P)ause', this, () => {
             // .resume will start the update loop of the target scene again
             // .stop will shutdown this scene, clear its display list, timers, etc.
-            this.scene.resume('Test').stop()
+            this.scene.resume('playScene').stop()
         })
 
         // input
