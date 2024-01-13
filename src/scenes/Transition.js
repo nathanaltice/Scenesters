@@ -4,6 +4,7 @@ class Transition extends Phaser.Scene {
     }
 
     create() {
+        // debug
         console.log(this)
 
         // camera fade in effect
